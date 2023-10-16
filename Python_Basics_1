@@ -1,0 +1,150 @@
+-------------- >>>>>>>>>print module
+
+print ("my name is siddu") it will print this massage
+
+name = "siddu"
+name
+'siddu'
+
+Name = "naresh"
+Name
+'naresh'
+
+name+Name
+'siddunaresh'
+
+
+---------------- >>>>>>>>>>caluculation
+
+5+6 = 11
+20-10 = 10
+
+a=10
+b=20
+a+b = 30
+
+---------------- >>>>> LISTS 
+
+Python Lists :
+
+nums = [5, 10, 15, 20, 25, 30, 35,40] (numbers will count from '012345......etc')
+
+nums
+[5, 10, 15, 20, 25, 30, 35, 40]
+
+nums[0] --> it will print '5' because the count starts form '0'
+5
+
+nums[2]
+15
+
+nums[1]
+10
+
+nums[-1] ('-1 means  it will print from last number')
+40
+
+nums[-2] ('-2 means  it will print 2n number from last numbers')
+35
+
+---------------- >>>>> append 
+
+append : append means it will add numbers or words or data to the last of row )
+
+exemple :
+
+nums.append(80)
+
+nums
+[5, 10, 15, 20, 25, 30, 35, 40, 80]
+
+nums.append(True) --> it will add true
+
+nums
+[5, 10, 15, 20, 25, 30, 35, 40, 80, True]
+
+---------------- >>>>>>> Insert
+
+insert module used for insert value or data ,where ever you want 
+
+exemple :
+
+fruit = ['mango', 'apple', 'orange']
+
+fruit.insert(1, 'grapes')
+
+fruit
+['mango', 'grapes', 'apple', 'orange']
+
+here insert module user to add 'grapes' but we have declerd where you want with serial number 
+we have given serial number 1 that means it will add at second place because series will start form 01234
+
+
+---------------- >>>>>>>>> Extend
+
+Extend function user to add multipule data types to the existed data 
+it will add end of the line or last of the data
+
+fruit = ['mango', 'apple', 'orange']
+
+fruit.extend(['cherry', 'banana', 'pineapple'])
+
+fruit
+
+['mango', 'grapes', 'apple', 'orange', 'cherry', 'banana', 'pineapple']
+
+
+
+---------------- >>>>>>>> replace the data
+
+how to replace the data 
+
+fruit = ['mango', 'grapes', 'apple', 'orange', 'cherry', 'banana', 'pineapple']
+
+fruit[1]="Kiwi"
+fruit
+['mango', 'Kiwi', 'apple', 'orange', 'cherry', 'banana', 'pineapple']
+
+here you can see "Kiwi" replaced the "grapes"
+
+
+---- >>>>>> to replace multipule data 
+
+fruit
+['mango', 'Kiwi', 'apple', 'orange', 'cherry', 'banana', 'pineapple']
+
+fruit[1:3]=["berry", "watermelon"]
+
+fruit
+['mango', 'berry', 'watermelon', 'orange', 'cherry', 'banana', 'pineapple']
+
+it will replace with "berry" and "watermelon" place of "Kiwi" and "apple"
+
+
+------------------ >>>>>>>>>>> Remove
+
+fruit= ['mango', 'berry', 'watermelon', 'orange', 'cherry', 'banana', 'pineapple']
+
+fruit.remove('berry')
+
+fruit
+['mango', 'watermelon', 'orange', 'cherry', 'banana', 'pineapple']
+
+it will remove "berry"
+
+
+------------------ >>>>>>>>>>> pop
+
+
+it will remove data with the index number
+
+exemple : fruit= ['mango', 'watermelon', 'orange', 'cherry', 'banana', 'pineapple']
+
+fruit.pop(2)
+'orange'
+
+it will remove "orange" beacuse index numbers starts with 0123
+
+fruit
+['mango', 'watermelon', 'cherry', 'banana', 'pineapple']
+
